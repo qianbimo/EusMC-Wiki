@@ -4,39 +4,20 @@
 
 - 如何安装 Java？
 - 如何启动游戏？
-- 如何进入服务器？
+- 进入服务器后的须知
 
 ## 安装 Java
 
 ?> 👍 如果您已经安装了 Java，请毫不犹豫地跳过此步。
 
-> **Java 是什么？**这应该是许多 Minecraft 玩家的共同问题。它是一门编程语言——哦，我们已经不需要再深入下去了。您只需要知道，Java 是 Minecraft 运行的必需品，没有了 Java，Minecraft **不可能**运行。
+首先，您需要下载 Java 的安装包
 
-> 也就是说我们必须要有 Java。Java 的公司叫做 **Oracle（甲骨文）**，他们最近更改了用户策略，使得必须在他们的网站上注册以后才有权力下载 Java 的安装包。虽然依然是免费的，但是麻烦了许许多多的人。因此，我们在群文件中提供 Java 8 的下载——这也是 Minecraft 目前能够运行的最稳定的 Java 版本。更高的，截止到 2019 年 7 月 24，Java 已经更新到 11。
+java8 32位在线安装包 下载地址：https://www.java.com/zh_CN/download/
+java8 64位离线安装包 群文件 文件名：`jre-8u241-windows-x64.exe`  MD5:06557f93fb3d13de10fabb91701b78ea
 
-好了，上述只是一个引子，接下来我们将介绍如何安装 Java。
+打开安装包，可能会提示安全警告，我们选择「是」。之后全部点击 <kbd>下一步</kbd> 即可。这样，它就会开始安装了。安装成功后，您的电脑就存在 Java 了。
 
-首先，您需要下载 Java 的安装包——在我们的群文件中。它的名字叫做 jre-8u241-windows-x64.zip，显然，它仅支持 64 位的电脑。我们下载下来以后，首先使用压缩软件**解压**。
-
-!> Sotap 不建议玩家使用 32 位架构的系统玩 Minecraft，因为实在是太卡了。您的电脑只要运行内存大于或等于 4 GB，均可以安装 64 位系统。也正因此，我们没有提供 32 位 Java 的版本。
-
-解压以后，得到的应该是一个叫做 `jre-8u241-windows-x64.exe` 的可执行文件，这是 Java 的安装程序。打开它，可能会提示安全警告，我们选择「是」。
-
-<figure style="text-align: center">
-    <img style="width: 500px" draggable="false" src="https://i.loli.net/2019/07/24/5d37ea83da1b380136.png"/>
-    <figcaption>Windows 10 中的提示</figcaption>
-</figure>
-
-之后弹出的窗口，先会提示「Preparing installation...」，这是在准备；然后就会弹出安装程序的主页面，我们不用管太多，直接全部 <kbd>下一步</kbd> 即可。这样，它就会开始安装了。
-
-<figure style="text-align: center">
-    <img style="width: 500px" draggable="false" src="https://i.loli.net/2019/07/24/5d37ebc90152f77543.png"/>
-    <figcaption>Java 的安装窗口</figcaption>
-</figure>
-
-安装成功后，您的电脑就存在 Java 了。
-
-## 启动客户端
+## 安装客户端
 
 ?> 👌 如果您能够自我配置客户端，请毫不犹豫地跳过此步。
 
@@ -44,39 +25,71 @@
 
 您可以通过以下途径获得 Minecraft 客户端：
 
- · 通过 MOJANG AB 提供的官方启动器；
+ · MOJANG AB 提供的官方启动器 下载地址：https://launcher.mojang.com/download/MinecraftInstaller.msi （国内可能需要科学上网）
 
- · 其他渠道。
+ · HMCL 下载地址：https://hmcl.huangyuhui.net/download （推荐使用）
+ 
+ · BMCL 下载地址：https://www.mcbbs.net/thread-137254-1-1.html
+ 
+ · Nsiso 下载地址：http://www.nsiso.com/
+  
+ · PCL 下载地址：https://www.mcbbs.net/thread-719579-1-1.html
+ 
+ · BakaXL 下载地址：http://www.BakaXL.com
 
-获取客户端后，里面通常会有一个类似于 `HMCL.exe` 的可执行文件，点击进入它(这里以 HMCL 为例)
+以下教程以HMCL做示范，其他启动器类似
 
+下载完之后，建议新建一个文件夹，将`HMCL.jar` 或`HMCL.exe`的文件放进去，然后双击打开
+
+1.首先登录自己的正版账户
 <figure style="text-align: center">
-    <img style="width: 500px" draggable="false" src="https://upload.cc/i1/2020/02/11/bKTMmC.png
-"/>
-    <figcaption>HMCL 主页面</figcaption>
+    <img style="width: 500px" draggable="false" src="https://s1.ax1x.com/2020/04/05/GryVJg.png"/>
+    <figcaption>HMCL 登录正版账户</figcaption>
 </figure>
-
-注意左上角，点击“点击此处添加账户”
-
+\
+2.修改下载源为BMCAPI
 <figure style="text-align: center">
-    <img style="width: 500px" draggable="false" src="https://upload.cc/i1/2020/02/11/jvkx9r.png
-"/>
-    <figcaption>点击右下角的“+”</figcaption>
+    <img style="width: 500px" draggable="false" src="https://s1.ax1x.com/2020/04/05/GryZWQ.png"/>
+    <figcaption>修改下载源</figcaption>
 </figure>
-
-这时，在里面添加你的 Minecraft 正版账号。
-
+\
+3.安装游戏(除七叶林子服外建议使用1.15.2进入，七叶林详细教程见下面)
+**从1.13开始optifine和forge不再兼容，1.14以上模组加载器建议使用fabric**
+ 如果下载或启动游戏出现了错误，可以截屏错误日志发到群里面询问其他玩家帮助
 <figure style="text-align: center">
-    <img style="width: 500px" draggable="false" src="https://upload.cc/i1/2020/02/11/BNJ4M3.png
-"/>
-    <figcaption>点击“开始游戏”</figcaption>
+    <img style="width: 500px" draggable="false" src="https://s1.ax1x.com/2020/04/05/GryFdf.png"/>
+    <figcaption>下载游戏</figcaption>
 </figure>
+\
+<figure style="text-align: center">
+    <img style="width: 500px" draggable="false" src="https://s1.ax1x.com/2020/04/05/Gryko8.png"/>
+    <figcaption>安装成功</figcaption>
+</figure>
+\
+4.返回主页面启动游戏
+<figure style="text-align: center">
+    <img style="width: 500px" draggable="false" src="https://s1.ax1x.com/2020/04/05/GryEFS.png"/>
+    <figcaption>启动游戏</figcaption>
+</figure>
+\
+5.添加服务器
+**复制或填写ip时候注意不要带空格，资源包一定要改成禁用**
+<figure style="text-align: center">
+    <img style="width: 500px" draggable="false" src="https://s1.ax1x.com/2020/04/05/GryieP.png"/>
+    <figcaption>添加服务器</figcaption>
+</figure>
+\
 
-最后，点击开始游戏即可开始玩耍w。
+##七叶林教程
+
+七叶林为模组服，所以本地客户端需要装某些特定的mod才能进入
+模组包下载地址见群文件或[GitHub](https://github.com/ElaBosak233/BJ-ClientSide/releases)
+
+1.安装forge（推荐使用forge版本14.23.5.2847）
+
 
 ## 进入服务器后...
 
 请仔细阅读[服规](https://wiki.eumc.cc/#/rules)以避免出现问题不知道如何解决；遇到其它的任何困难请时时刻刻咨询我们的管理——他们大部分时间都在。我们的管理名单可以在[这里](https://wiki.eumc.cc/#/operators)看到。
 
 如果您不了解指令的使用，也可以前往[这里](basic-commands.md)查看一些基础的指令用法。
-
