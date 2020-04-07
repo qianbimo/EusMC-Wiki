@@ -53,7 +53,7 @@ java8 64位离线安装包 群文件 文件名：`jre-8u241-windows-x64.exe`  MD
     <figcaption>修改下载源</figcaption>
 </figure>
   
-3.安装游戏(除七叶林子服外建议使用1.15.2进入，七叶林详细信息见[七叶林官网](www.bumc.cc))
+3.安装游戏(除七叶林子服外建议使用1.15.2进入，七叶林详细信息见[`七叶林官网`](https://www.bumc.cc))
 **从1.13开始optifine和forge不再兼容，1.14以上模组加载器建议使用fabric**
  如果下载或启动游戏出现了错误，可以截屏错误日志发到群里面询问其他玩家帮助
 <figure style="text-align: center">
