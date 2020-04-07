@@ -46,48 +46,39 @@ java8 64位离线安装包 群文件 文件名：`jre-8u241-windows-x64.exe`  MD
     <img style="width: 500px" draggable="false" src="https://s1.ax1x.com/2020/04/05/GryVJg.png"/>
     <figcaption>HMCL 登录正版账户</figcaption>
 </figure>
-\
+  
 2.修改下载源为BMCAPI
 <figure style="text-align: center">
     <img style="width: 500px" draggable="false" src="https://s1.ax1x.com/2020/04/05/GryZWQ.png"/>
     <figcaption>修改下载源</figcaption>
 </figure>
-\
-3.安装游戏(除七叶林子服外建议使用1.15.2进入，七叶林详细教程见下面)
+  
+3.安装游戏(除七叶林子服外建议使用1.15.2进入，七叶林详细信息见[七叶林官网](www.bumc.cc))
 **从1.13开始optifine和forge不再兼容，1.14以上模组加载器建议使用fabric**
  如果下载或启动游戏出现了错误，可以截屏错误日志发到群里面询问其他玩家帮助
 <figure style="text-align: center">
     <img style="width: 500px" draggable="false" src="https://s1.ax1x.com/2020/04/05/GryFdf.png"/>
     <figcaption>下载游戏</figcaption>
 </figure>
-\
+  
 <figure style="text-align: center">
     <img style="width: 500px" draggable="false" src="https://s1.ax1x.com/2020/04/05/Gryko8.png"/>
     <figcaption>安装成功</figcaption>
 </figure>
-\
+  
 4.返回主页面启动游戏
 <figure style="text-align: center">
     <img style="width: 500px" draggable="false" src="https://s1.ax1x.com/2020/04/05/GryEFS.png"/>
     <figcaption>启动游戏</figcaption>
 </figure>
-\
+  
 5.添加服务器
 **复制或填写ip时候注意不要带空格，资源包一定要改成禁用**
 <figure style="text-align: center">
     <img style="width: 500px" draggable="false" src="https://s1.ax1x.com/2020/04/05/GryieP.png"/>
     <figcaption>添加服务器</figcaption>
 </figure>
-\
-
-##七叶林教程
-
-七叶林为模组服，所以本地客户端需要装某些特定的mod才能进入
-模组包下载地址见群文件或[GitHub](https://github.com/ElaBosak233/BJ-ClientSide/releases)
-
-1.安装forge（推荐使用forge版本14.23.5.2847）
-
-
+  
 ## 进入服务器后...
 
 请仔细阅读[服规](https://wiki.eumc.cc/#/rules)以避免出现问题不知道如何解决；遇到其它的任何困难请时时刻刻咨询我们的管理——他们大部分时间都在。我们的管理名单可以在[这里](https://wiki.eumc.cc/#/operators)看到。
